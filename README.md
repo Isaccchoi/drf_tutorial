@@ -1,0 +1,1 @@
+# Follow the DRF tutorial
