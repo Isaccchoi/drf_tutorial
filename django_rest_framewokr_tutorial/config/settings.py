@@ -26,17 +26,17 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# DRF
-REST_FRAMEWORK = {
-    'DEFAULT_RENDERER_CLASSES': (
-        'rest_framework.renderers.JSONRenderer',
-        'rest_framework_xml.renderers.XMLRenderer',
-    ),
-    'DEFAULT_PARSER_CLASSES': (
-        'rest_framework.parsers.JSONParser',
-        'rest_framework_xml.parsers.XMLParser',
-    )
-}
+# # DRF
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES': (
+#         'rest_framework.renderers.JSONRenderer',
+#         'rest_framework_xml.renderers.XMLRenderer',
+#     ),
+#     'DEFAULT_PARSER_CLASSES': (
+#         'rest_framework.parsers.JSONParser',
+#         'rest_framework_xml.parsers.XMLParser',
+#     )
+# }
 
 # Application definition
 

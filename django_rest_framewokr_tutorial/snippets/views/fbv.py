@@ -2,9 +2,13 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from snippets.models import Snippet
-from snippets.serializers import SnippetSerializer
+from ..models import Snippet
+from ..serializers import SnippetSerializer
 
+__all__ = (
+    'snippet_list',
+    'snippet_detail',
+)
 
 @api_view(['GET', 'POST'])
 def snippet_list(request, format=None):
